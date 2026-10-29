@@ -1,14 +1,57 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My PaaS Web Application</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First React Application</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #282c34;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo {
+      width: 160px;
+      height: 160px;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    a {
+      color: #61dafb;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My PaaS Web Application</h1>
-    <p>This web application is created for Cloud Computing Experiment No. 6.</p>
-    <h2>AWS Amplify</h2>
-    <p>Platform as a Service (PaaS)</p>
+  <div class="app">
+    <svg class="logo" viewBox="-11.5 -10.2 23 20.4"
+         xmlns="http://www.w3.org/2000/svg">
+      <circle cx="0" cy="0" r="2" fill="#61dafb"/>
+      <g fill="none" stroke="#61dafb" stroke-width="0.8">
+        <ellipse rx="11" ry="4.2"/>
+        <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+        <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+      </g>
+    </svg>
+
+    <p>This is my first React Application</p>
+    <a href="https://react.dev/">Learn React</a>
+  </div>
 </body>
 </html>
-  
